@@ -1,0 +1,13 @@
+Scenario: we are It support team and in charge of creating email account for new hire.
+
+    Application should do the following:
+
+    1. generate email with the following syntax: firstname.lastname@department.company.com
+    2. Determine the department(sales, account, dev) if none leave empty
+    3. generate a random string as a password.
+    4. have set method to change the password, set mailbox capacity, and define alternate email address.
+    5.  have get methods to display the name, email and mailbox capacity
+
+
+
+    // Follow the instructions to build the App....!
