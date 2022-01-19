@@ -1,4 +1,4 @@
-package practice2022.chirag_Youtube;
+package chirag_YT;
 
 import java.util.Scanner;
 
