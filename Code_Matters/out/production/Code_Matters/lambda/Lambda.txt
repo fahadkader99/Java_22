@@ -1,0 +1,25 @@
+package lambda;
+
+public class Intro {
+
+    public static void main(String[] args) {
+         greetingFunction = () -> System.out.print("Hello World");
+
+
+        1.  doubleNumberFunction = (int a)-> a *2;
+
+        2.  addFunction = (int a, int b)-> a+b;
+
+        3. safeDivide = (int a, int b) -> {
+                        if(b==0) return 0;
+                        return a/b;
+                         };
+
+        4. stringLengthCount = (String s)-> s.length();
+
+
+    }
+    public void greet(greetingFunction){    // can pass lambda as argument, means passing another method to a method
+
+    }
+}

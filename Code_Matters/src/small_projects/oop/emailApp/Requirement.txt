@@ -1,3 +1,6 @@
+// https://www.youtube.com/watch?v=U3Ibvu0htNs&list=PLtNXxhX8HfFD8rtejX7VB4oTh_xxf05Fq&index=2
+
+
 Scenario: we are It support team and in charge of creating email account for new hire.
 
     Application should do the following:
