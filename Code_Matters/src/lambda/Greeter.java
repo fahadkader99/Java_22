@@ -18,6 +18,8 @@ public class Greeter {
 
        MyDivide divideFunction = (double a, double b)-> a/b;
 
+       MySub subFunction = (int a, int b) -> a-b;
+
 
     }
 }
@@ -33,4 +35,8 @@ interface MyAdd{
 
 interface MyDivide{
     double divide(double a, double b);
+}
+
+interface MySub{
+    int sub(int a, int b);
 }

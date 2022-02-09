@@ -1,9 +1,9 @@
 Frequently asked Java Programs (Series):
 1. Swap two Number
 2. Reverse a Number
-3. Reverse a String
+3. Reverse a pair_Program.strings.StringSum
 4. Palindrome Number
-5. Palindrome String
+5. Palindrome pair_Program.strings.StringSum
 6. Count number of Digits in a Number
 7. Count number of even and odd digits
 8. Count sum of digits in a number
@@ -22,10 +22,10 @@ Frequently asked Java Programs (Series):
 22. Searching an Element in Array (Binary Search)
 23. Sort Elements in Array (Bubble Sort)
 24. Sort Elements in Array (Built-In Sort)
-25. Remove Junk or Special Characters in String
-26. Remove White Spaces in String
-27. Count occurrences of a character in a String
-28. Count Words in a String
-29. Reverse each word in a String
+25. Remove Junk or Special Characters in pair_Program.strings.StringSum
+26. Remove White Spaces in pair_Program.strings.StringSum
+27. Count occurrences of a character in a pair_Program.strings.StringSum
+28. Count Words in a pair_Program.strings.StringSum
+29. Reverse each word in a pair_Program.strings.StringSum
 30. Read Data from a Text File
 31. Write Data into a Text File
