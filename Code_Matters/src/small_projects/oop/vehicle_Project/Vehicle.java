@@ -82,6 +82,10 @@ public class Vehicle {
     public static int getCount(){
         return count;               // static is a class level variable and to access them, we do not need instance of the object., directly call by using class.
     }
+    public static String getVehicle(){      // static is a class level variable
+        return "you have set the name and color of the vehicle";
+    }
+
 
 
 

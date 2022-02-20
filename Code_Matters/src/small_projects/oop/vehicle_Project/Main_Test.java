@@ -16,6 +16,8 @@ public class Main_Test {
         System.out.println();
         System.out.println(Vehicle.getCount());
 
+        System.out.println(Vehicle.getVehicle());
+
 
 
     }
