@@ -1,6 +1,8 @@
 package Challenging_Problem;
 
 import java.util.Arrays;
+import java.util.LinkedHashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public class AnagramString {
@@ -23,6 +25,7 @@ listen and silent are anagrams*/
         method1(str1,str2);
         method2(str1,str2);
         method3(str1,str2);     // first two method will fail if i use space.
+        method4(str1,str2);     // Method 4 is working perfectly....!
 
     }
     public static void method1(String str1, String str2){       // using break down approach
@@ -64,7 +67,7 @@ listen and silent are anagrams*/
         } else System.out.println("Not anagram");
 
     }
-    public static void method3(String str1, String str2){
+    public static void method3(String str1, String str2){                                       // using Array and sorting technique
         // this is more touchdown approach to check the sentence is Anagram or not
 
         str1 = str1.replace(" ", "");
@@ -82,6 +85,41 @@ listen and silent are anagrams*/
             System.out.println("Anagram");
 
         } else System.out.println("Not anagram");
+
+    }
+    public static void method4(String str1, String str2){       // using map and comparing the maps ..... using collections
+        str1 = str1.replace(" ","");
+        str2 = str2.replace(" ","");
+
+        Map<Character, Integer> map1 = new LinkedHashMap<>();
+        for (int i = 0; i<str1.length();i++){
+            char ch = str1.charAt(i);
+
+            if (map1.get(ch)==null){
+                map1.put(ch, 1);
+            }else {
+                map1.put(ch,map1.get(ch)+1);
+            }
+        }
+
+        Map<Character, Integer> map2 = new LinkedHashMap<>();
+        for (int i = 0; i<str2.length();i++){
+            char ch = str2.charAt(i);
+
+            if (map2.get(ch)==null){
+                map2.put(ch,1);
+            }else {
+                map2.put(ch,map2.get(ch)+1);
+            }
+        }
+
+        boolean isAnagram = map1.equals(map2);
+
+        if (isAnagram){
+            System.out.println("Anagram");
+        }else System.out.println("Not Anagram");
+
+
 
     }
 }
