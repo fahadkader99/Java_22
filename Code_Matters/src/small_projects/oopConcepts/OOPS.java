@@ -63,7 +63,7 @@ class Triangle extends Shape{
 
     public void area(int l, int h){
         System.out.println("Printing from Triangle");
-        System.out.println(1/2*l*h);
+        System.out.println("");
     }
 }
 
@@ -79,10 +79,10 @@ class EquilateralTriangle extends Triangle{
 public class OOPS {
     public static void main(String args []) {
 
-        Triangle t = new Triangle();
-        t.color = "White";
-        System.out.println(t.color);
-        t.area();
+//        Triangle t = new Triangle();
+//        t.color = "White";
+//        System.out.println(t.color);
+//        t.area();
 
     }
 }
