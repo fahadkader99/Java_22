@@ -8,7 +8,7 @@ public class BinarySearchArray {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int[] arr = {9,5,2,7,11,4,3,1,0,10,12,13,8};
+        int[] arr = {9,5,2,7,11,4,3,1,0,10,12,13,8,17,19};
 
         Arrays.sort(arr);
         System.out.println(Arrays.toString(arr));
@@ -17,7 +17,7 @@ public class BinarySearchArray {
         int num = sc.nextInt();
 
 
-        int low = arr[0];
+        int low = 0;
         int high = arr.length-1;
         int mid = 0;
 

@@ -1,4 +1,4 @@
-package oop.first_bank;
+package small_projects.oop.first_bank;
 
 import java.util.Scanner;
 

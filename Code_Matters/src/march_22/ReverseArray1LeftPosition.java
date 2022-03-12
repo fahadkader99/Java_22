@@ -1,7 +1,5 @@
 package march_22;
 
-import java.util.Arrays;
-
 public class ReverseArray1LeftPosition {
     // reverse an array for left position by 1
     public static void main(String[] args) {

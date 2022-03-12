@@ -1,4 +1,4 @@
-package oop.first_bank;
+package small_projects.oop.first_bank;
 //https://www.youtube.com/watch?v=hqY6rKhRBzU&t=835s
 public class MainTest {
     public static void main(String[] args) {
