@@ -1,4 +1,4 @@
-package march_22.algorithm;
+package algo;
 
 import java.util.Arrays;
 import java.util.Scanner;
