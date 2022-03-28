@@ -14,7 +14,7 @@ public class Array___Operations____ {
         //findMax(arr);
         //leftRotateBy1(arr);
         //leftRotateBy3(arr);
-        // rightRotateBy1(arr);
+        //rightRotateBy1(arr);
         //rightRotateBy3(arr);
         //reverseArray(arr);
         //removeDuplicate();
@@ -25,7 +25,9 @@ public class Array___Operations____ {
         //compareArray();
         //compare_array_without_Builtin_Method();
         //find_missing_element();
-        search_element_byIndex();
+        //search_element_byIndex();
+        //reverseSameArray();
+        max2Numbers();
 
 
     }
@@ -288,6 +290,51 @@ public class Array___Operations____ {
                 break;
             }
         }
+
+
+    }
+    public static void reverseSameArray(){
+        int[] arr = {1,2,3,4,5,6,7,8,9};
+
+        for (int i = 0; i<arr.length/2 ; i++){
+            int temp = arr[i];
+            arr[i] = arr[arr.length-1 -i];
+            arr[arr.length-1 -i] = temp;
+        }
+        System.out.println(Arrays.toString(arr));
+
+
+
+    }
+
+
+    public static void max2Numbers(){
+        int[] num = {1,2,3,4,5,6,7,8,9};
+
+        // 1st method
+        Arrays.sort(num);
+        int max1 = num[num.length-1];
+        int max2 = num[num.length-2];
+        System.out.println("2 max number in array: "+ max1+" "+max2);
+
+        // 2nd method
+
+        int m1 = num[0];
+        int m2 = num[0];
+
+        for (int i = 0; i< num.length;i++){
+
+            if (num[i] > m1){
+                m2 = m1;
+                m1 = num[i];
+            }
+            else if (num[i] > m2){
+                m2 = num[i];
+            }
+        }
+
+        System.out.println("Max1 "+ m1);
+        System.out.println("Max2 "+ m2);
 
 
     }
