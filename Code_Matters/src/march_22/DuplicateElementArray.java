@@ -1,28 +1,34 @@
 package march_22;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class DuplicateElementArray {
     // write a code to filter duplicate elements from an array and print as list.
     public static void main(String[] args) {
-        int[] num = {1,2,3,4,5,6,7,8,9,0,10,3,4,5,6,7,8,9,2,1};
+        int[] num = {1,2,3,4,5,1,2,3,4,6};
 
         List<Integer> list = new ArrayList<>();
         Set<Integer> set = new HashSet<>();
 
-        returnDuplicate(num,list);
-        removeDuplicate(num,set);
+        returnDuplicate();
+        //removeDuplicate(num,set);
 
     }
-    public static void returnDuplicate(int[] num, List<Integer> list){
+    public static void returnDuplicate(){
 
-        for (int i = 0; i< num.length;i++){
-            for (int j = i+1; j< num.length;j++){
-                if (num[i]==num[j]){
-                    list.add(num[j]);
+        List<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.add(2);
+
+        Collections.sort(list);
+        System.out.println(list);
+
+        for (int i = 0; i<list.size()-1;i++){
+            for (int j = i+1; j<list.size();j++){
+                if (list.get(i).equals(list.get(j))){
+                    list.remove(list.get(j));
                 }
             }
         }
