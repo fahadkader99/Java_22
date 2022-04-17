@@ -1,4 +1,4 @@
-package april_Lets_Get_The_JOB;
+package april_Fool;
 
 import java.util.Scanner;
 
