@@ -28,6 +28,7 @@ public class RemoveDuplicate {
         StringBuilder sb = new StringBuilder();
         for (Character c : set){
             sb.append(c);
+            sb.append(" ");
         }
         System.out.println(sb);
 
