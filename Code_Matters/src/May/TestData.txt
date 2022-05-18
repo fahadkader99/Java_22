@@ -1,0 +1,5 @@
+Hello
+This is Fahad
+Writing from a text file.
+This is 4th line
+And this 5th line

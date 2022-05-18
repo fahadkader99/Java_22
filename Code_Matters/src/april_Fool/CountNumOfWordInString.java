@@ -47,7 +47,5 @@ public class CountNumOfWordInString {
         }
 
     }
-    public static void find_Char_Occurrence(String a){
-        
-    }
+
 }
