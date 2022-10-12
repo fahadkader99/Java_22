@@ -53,14 +53,14 @@ public class ArraySum {
     public static void compareArrays(){
         int[] num = {1,2,3,4,5};
         int[] num2 = {1,2,3,4,6};
-        boolean even = false;
+        boolean even = true;
 
       if (num.length==num2.length){
 
           for (int i = 0;i<num.length;i++){
 
-              if (num[i]==num2[i]){
-                 even = true;
+              if (num[i]!=num2[i]){
+                 even = false;
               }
           }
       }
