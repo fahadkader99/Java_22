@@ -1,0 +1,10 @@
+> Email application
+
+# You are an IT support support administrator and are charged with the task of creating an email accounts for new hires
+
+
+1. generate an email with the following syntax: firstname.lastname@department.company.com
+2. Determine the dept (Sales, development, marketing, acc) if none leave blank
+3. Generate a random string for password
+4. Have a set method to set the password, set the mailbox capacity, and define the alternative email add
+5. Have a get method to display the name, email, and mailbox capacity
