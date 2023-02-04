@@ -11,8 +11,10 @@ public class ReverseArrayList {
 
         ArrayList<Integer> list = new ArrayList<>(Arrays.asList(1,2,3,4,5));
 
+        int[] arr = new int[]{1,2,3,4,5,6};
+
         //one(list);
-        two(list);
+        two(arr);
 
 
     }
@@ -22,14 +24,19 @@ public class ReverseArrayList {
         System.out.println(list);
     }
 
-    static void two(List<Integer> list){
+    static void two(int[] arr){
 
-//        for (int i = 0; i < list.size()/2; i++){
-//            int temp = list.get(list.size()-i-1);
-//            list.get(list.size()-i-1) = list.get(i);
-//           list.get(i) = temp;
-//        }
+        int length = arr.length;
+        int halfLength = length/2;
 
-        System.out.println(list);
+        for (int i = 0; i < halfLength; i++){
+            int temp = arr[arr.length-i-1];
+            arr[arr.length-i-1] = arr[i];
+            arr[i] = temp;
+        }
+        System.out.println(Arrays.toString(arr));
+
+
     }
+
 }
