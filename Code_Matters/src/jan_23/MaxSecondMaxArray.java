@@ -60,6 +60,6 @@ public class MaxSecondMaxArray {
                 min = arr[i];
             }
         }
-        System.out.println("Min: " + min);
+        System.out.println("Min: " + min );
     }
 }

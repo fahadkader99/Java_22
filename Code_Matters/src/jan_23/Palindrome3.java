@@ -2,7 +2,7 @@ package jan_23;
 
 import java.util.Scanner;
 
-public class PalindromeString {
+public class Palindrome3 {
     // palindrome string - should be same when it is reversed
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
