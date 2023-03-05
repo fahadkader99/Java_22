@@ -2,7 +2,7 @@ package jan_23;
 
 import java.util.Scanner;
 
-public class PalindromeString {
+public class PalindromeString2 {
     // string read from left to right & right to left should be same
 
     public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class PalindromeString {
         sc.close();
 
         // Calling method
-        PalindromeString pal = new PalindromeString();
+        PalindromeString2 pal = new PalindromeString2();
         if (pal.isPalindrome(a)==true){
             System.out.println("Palindrome");
         }else {
