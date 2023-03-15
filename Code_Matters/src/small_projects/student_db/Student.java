@@ -1,4 +1,4 @@
-package march_23.projects.student_db;
+package small_projects.student_db;
 
 import java.util.Scanner;
 
