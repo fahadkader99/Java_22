@@ -57,6 +57,8 @@ public class PalindromeCheck {
             b = (b * 10) + rem;
             num = num / 10;
         }
+        System.out.println(a);
+        System.out.println(b);
 
         if (a == b){
             System.out.println("Palindrome");
