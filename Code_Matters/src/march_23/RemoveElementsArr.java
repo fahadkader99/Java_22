@@ -7,6 +7,7 @@ public class RemoveElementsArr {
     // find an element from array
     public static void main(String[] args) {
 
+        /*
         // set the array
         Scanner sc = new Scanner(System.in);
         Scanner scanner = new Scanner(System.in);
@@ -43,7 +44,7 @@ public class RemoveElementsArr {
             }
         }
 
-
+    */
 
 
 
