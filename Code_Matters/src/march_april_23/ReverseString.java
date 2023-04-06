@@ -29,7 +29,7 @@ public class ReverseString {
     static void rev2(String str){
         String rev = "";
         for (int i = str.length()-1; i>=0; i--){
-            rev+=str.charAt(i);
+            rev += str.charAt(i);
         }
         System.out.println(rev);
     }

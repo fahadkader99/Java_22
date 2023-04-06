@@ -35,7 +35,7 @@ public class LongestSubstringWithOutRepeatingChar {
             if (!map.containsKey(ch)){
                 map.put(ch, i);
             }else {
-                i = map.get(ch);                                                    // if map already contains the key > then replacing the map value with with the previous value of the key
+                i = map.get(ch);                                                    // if map already contains the key > then replacing the map value with the previous value of the key
                 map.clear();                                                        // since I don't want the repeated char & after replacing i value with previous repeated value > so if repeated char found then it will clear the value
             }
 

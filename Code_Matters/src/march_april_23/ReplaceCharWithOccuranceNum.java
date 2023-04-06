@@ -9,7 +9,7 @@ public class ReplaceCharWithOccuranceNum {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a String");
         String input = sc.nextLine().toUpperCase().trim();
-        System.out.println("Enter a char to check occurance: ");
+        System.out.println("Enter a char to check occurrence: ");
         char charToReplace = sc.nextLine().toUpperCase().charAt(0);
         sc.close();
 
