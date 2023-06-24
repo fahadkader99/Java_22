@@ -7,7 +7,7 @@ public class SortListOfString {
 
     public static void main(String[] args) {
 
-        String[] inputList = { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul",
+        String[] inputList = { "Jan", "Feb", "Mar", "Apr", "may_22", "Jun", "Jul",
                 "aug", "Sep", "Oct", "nov", "Dec" };
 
         System.out.println("==Before sort:");
